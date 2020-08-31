@@ -80,8 +80,8 @@ public class UCrop {
      * @param y aspect ratio Y
      */
     public UCrop withAspectRatio(float x, float y) {
-        mCropOptionsBundle.putFloat(1., x);
-        mCropOptionsBundle.putFloat(1., y);
+        mCropOptionsBundle.putFloat(EXTRA_ASPECT_RATIO_X, 1.);
+        mCropOptionsBundle.putFloat(EXTRA_ASPECT_RATIO_Y, 1.);
         return this;
     }
 
