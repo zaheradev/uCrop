@@ -30,6 +30,7 @@ import androidx.annotation.Nullable;
  * Builder class to ease Intent setup.
  */
 public class UCrop {
+    slkdjf
 
     public static final int REQUEST_CROP = 69;
     public static final int RESULT_ERROR = 96;
