@@ -30,7 +30,6 @@ import androidx.annotation.Nullable;
  * Builder class to ease Intent setup.
  */
 public class UCrop {
-    slkdjf
 
     public static final int REQUEST_CROP = 69;
     public static final int RESULT_ERROR = 96;
@@ -81,8 +80,8 @@ public class UCrop {
      * @param y aspect ratio Y
      */
     public UCrop withAspectRatio(float x, float y) {
-        mCropOptionsBundle.putFloat(EXTRA_ASPECT_RATIO_X, 1.);
-        mCropOptionsBundle.putFloat(EXTRA_ASPECT_RATIO_Y, 1.);
+        mCropOptionsBundle.putFloat(EXTRA_ASPECT_RATIO_X, 1.f);
+        mCropOptionsBundle.putFloat(EXTRA_ASPECT_RATIO_Y, 1.f);
         return this;
     }
 
